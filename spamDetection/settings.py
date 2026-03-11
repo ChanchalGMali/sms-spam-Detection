@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-2j6l&zz0pyu1ak$szgo1xwt!=wrvh(0qq7+*%9dynm1rp3zz$a
 DEBUG = False
 
 
-ALLOWED_HOSTS = [ "sms-spam-detection-9v5br.onrender.com",
-    "localhost",
-    "127.0.0.1",]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'detector',
 ]
 
 MIDDLEWARE = [
