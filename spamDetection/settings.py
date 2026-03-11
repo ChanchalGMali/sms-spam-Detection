@@ -28,7 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [ "sms-spam-detection-9v5br.onrender.com",
     "localhost",
-    "127.0.0.1",']
+    "127.0.0.1",]
 
 
 # Application definition
