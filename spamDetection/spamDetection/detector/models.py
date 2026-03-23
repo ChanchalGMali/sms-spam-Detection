@@ -1,3 +1,6 @@
-from django.db import models
+import os
+from django.conf import settings
 
-# Create your models here.
+model_path = os.path.join(settings.BASE_DIR, 'model.pkl')
+model = pickle.load(open(model_path, 'rb'))
+
