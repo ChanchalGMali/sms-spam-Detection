@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 python-3.11.9
-=======
-python-3.11.9
->>>>>>> 4945d40 (fix python version for render)
