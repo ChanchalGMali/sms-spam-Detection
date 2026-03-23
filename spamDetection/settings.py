@@ -24,13 +24,10 @@ import os
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-dev-key-change-me')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-
-ALLOWED_HOSTS = [ "sms-spam-detection-9v5r.onrender.com",
-    "localhost",
-    "127.0.0.1"
-]
+import os
+ALLOWED_HOSTS = ['sms-spam-detection-9-3n1k.onrender.com']
 
 
 # Application definition
