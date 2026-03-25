@@ -54,6 +54,7 @@ def predictMessage(message):
 @login_required
 
 def Home(request):
+    return render(request, 'home.html')
     result = None
 
     if request.method == 'POST':

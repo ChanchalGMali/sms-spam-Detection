@@ -1,12 +1,5 @@
-from flask import Flask, request, render_template
-import os
+from django.apps import AppConfig
 
-app = Flask(_name_)
-
-@app.route('/')
-def home():
-    return "App is running"
-
-if _name_ == "_main_":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+class DetectorConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'detector'
