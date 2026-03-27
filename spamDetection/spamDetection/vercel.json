@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "spamDetection/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "spamDetection/wsgi.py"
+        }
+    ]
+}
